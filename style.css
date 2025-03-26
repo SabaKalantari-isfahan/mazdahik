@@ -1,0 +1,313 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    text-align: center;
+    margin: 0px !important;
+  }
+}
+.gray {
+  color: gray;
+}
+
+.active {
+  color: #4faa84;
+}
+
+.btn-green {
+  background-image: linear-gradient(to right, #4faa84, #68ffc0);
+  background-position: left center;
+  background-size: 400% 100%;
+  border-radius: 30px !important;
+  display: inline-block;
+  padding: 20px;
+  transition: 0.3s;
+}
+.btn-green:hover {
+  background-position: right top;
+}
+
+.bg {
+  background-size: contain;
+  height: 100vh;
+  background-image: url(../imgs/IMG_9902.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  top: 0;
+}
+
+.nav li {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.nav li:hover {
+  color: #4faa84;
+}
+.nav i {
+  font-size: 25px;
+  color: lightslategray;
+}
+.nav i:hover {
+  color: #4faa84;
+}
+.nav .menu {
+  width: 60px;
+  height: 60px;
+  background-position: left center;
+  background-size: 400% 100%;
+  background-image: linear-gradient(to right, #4faa84, #68ffc0);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.nav .menu:hover {
+  background-position: right center;
+}
+
+.impact-box {
+  margin-top: 150px;
+}
+.impact-box .impact-cards div {
+  margin-top: 60px;
+  padding: 10px 25px;
+  box-shadow: 3px 3px 20px 5px rgba(119, 136, 153, 0.148);
+  background-color: white;
+  border-radius: 30px;
+  border: 2px dashed rgb(208, 208, 208);
+  margin: 0 5px;
+}
+.impact-box .impact-cards div h4 {
+  margin: 35px 0;
+}
+.impact-box .impact-cards div img {
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+  border: 1px solid #4faa84;
+}
+.impact-box .impact-cards div:hover {
+  border: 2px dashed #4faa84;
+  width: 350px;
+}
+
+.box-about {
+  margin-top: 70px !important;
+}
+.box-about h3 {
+  color: #4faa84;
+}
+.box-about a {
+  background-image: linear-gradient(to right, #4faa84, #68ffc0);
+  background-position: left center;
+  background-size: 400% 100%;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px 20px;
+  transition: 0.3s;
+}
+.box-about a:hover {
+  background-position: right top;
+}
+.box-about p {
+  color: lightslategray;
+}
+
+.box-work {
+  margin-top: 90px;
+}
+.box-work .text-work h3 {
+  color: #4faa84;
+}
+.box-work .text-work p {
+  color: lightslategray;
+}
+.box-work .text-work .navar-first {
+  margin-top: 40px;
+}
+.box-work .text-work .navar-two {
+  margin-top: 40px;
+}
+.box-work .text-work .navar-last {
+  margin-top: 40px;
+}
+.box-work .text-work .progress-bg {
+  background-color: #ebebeb;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  border-radius: 50px;
+}
+.box-work .text-work .progress-bar-one {
+  height: 10px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  background-color: #fc9d44;
+  width: 0;
+}
+.box-work .text-work .progress-bar-two {
+  height: 10px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  background-color: #fc9d44;
+  width: 0;
+}
+.box-work .text-work .progress-bar-three {
+  height: 10px;
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+  background-color: #fc9d44;
+  width: 0;
+}
+
+.plans {
+  margin-top: 90px;
+}
+.plans .text-plan {
+  text-align: center;
+}
+.plans .text-plan h3 {
+  color: #4faa84;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown input {
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+.dropdown input:focus {
+  border: #68ffc0 !important;
+}
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 3px 3px 20px 5px rgba(119, 136, 153, 0.148);
+  padding: 5px;
+  z-index: 10;
+}
+.dropdown .dropdown-content div {
+  padding: 10px;
+  cursor: pointer;
+}
+.dropdown .dropdown-content div:hover {
+  color: #4faa84;
+}
+
+.box-q-home {
+  border-radius: 30px;
+  box-shadow: 3px 3px 20px 5px rgba(119, 136, 153, 0.148);
+  background-color: white;
+  cursor: pointer;
+}
+.box-q-home h5 {
+  padding: 15px;
+}
+.box-q-home p {
+  padding: 0 20px 20px 20px;
+}
+.box-q-home .answer-q-home {
+  color: gray;
+}
+
+.box-about-us {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.box-about-us .container-about {
+  display: flex;
+  transition: transform 1.5s ease-in-out;
+  width: 100vw;
+}
+.box-about-us .container-about .page {
+  flex: 0 0 80vw; /* تغییر عرض صفحه به 80% از عرض صفحه نمایش */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: opacity 1.5s ease;
+  margin: 10vh 10vw; /* اضافه کردن فاصله از بالا و چپ */
+  text-align: justify;
+}
+@media (min-width: 320px) {
+  .box-about-us .page img {
+    width: 220px;
+  }
+}
+@media (min-width: 768px) {
+  .box-about-us .page h1 {
+    font-size: 51px;
+  }
+  .box-about-us .page p {
+    font-size: 13px;
+  }
+  .box-about-us .page img {
+    width: 239px;
+  }
+}
+@media (min-width: 1024px) {
+  .box-about-us .page img {
+    width: 270px;
+  }
+  .box-about-us .page .col-right {
+    margin-top: 25px;
+  }
+  .box-about-us .page .col-right h1 {
+    font-size: 70px;
+  }
+  .box-about-us .page .col-right p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1440px) {
+  .box-about-us .page img {
+    width: 300px;
+  }
+  .box-about-us .page .col-right {
+    margin-top: 75px;
+  }
+  .box-about-us .page .col-right h1 {
+    font-size: 80px;
+  }
+  .box-about-us .page .col-right p {
+    font-size: 19px;
+  }
+}
+
+.page.hidden {
+  opacity: 0;
+}
+
+.cards-mediAI .inp-box .inp-card {
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 3px 20px 5px rgba(119, 136, 153, 0.148);
+}
+.cards-mediAI .inp-box .inp-card input {
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+}
+.cards-mediAI .inp-box .inp-card input:focus {
+  border: #68ffc0 !important;
+}/*# sourceMappingURL=style.css.map */
